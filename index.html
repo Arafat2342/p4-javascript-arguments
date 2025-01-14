@@ -46,9 +46,9 @@
             return low;
         }
         num2.innerHTML = "finding the lowest number using argument objects :" + findlow(4,5,6);
-        var max = findMax(4,5,6),low =findlow(4,5,6);
-        document.getElementById("result").innerHTML ='the sum of biggest and the lowest argument is:' + Number(max) + Number(low);
-        document.getElementById('deg1').innerHTML = 'sin of 60 degree:' + Math.sin();
+        var max = findMax(4,5,6),low =findlow(4,5,6),str="the sum of biggest and the lowest argument is: ";
+        document.getElementById("result").innerHTML = str + Number(max + low);
+        document.getElementById('deg1').innerHTML = 'sin of 60 degree:' + Math.sin(60);document.getElementById('deg2').innerHTML = 'cos of 60 degree:' + Math.cos(60);document.getElementById('deg3').innerHTML = 'tan of 60 degree:' + Math.tan(60);
     </script>
 </body>
 </html>
